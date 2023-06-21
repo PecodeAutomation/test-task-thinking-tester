@@ -6,4 +6,4 @@ test task thinking-tester
 
 # Run the tests 
 
-npm playwright run
+npm run test
