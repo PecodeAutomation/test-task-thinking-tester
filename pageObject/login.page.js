@@ -23,7 +23,6 @@ class LoginPage {
 
     async verifyIfUserIsLoggedIn() {
         await expect(await this.getLogoutButton).toBeVisible();
-        // expect(page).toHaveURL('/contactList');
     }
 
     async verifyIfUserIsNotLoggedIn() {
